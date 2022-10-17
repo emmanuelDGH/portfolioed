@@ -4,8 +4,11 @@
   cursor:default
 }
 .scene{
-position:relative;
- height:800px;
+  margin: 0 auto;
+  max-width: 550px;
+  position:relative;
+  height:800px;
+
 }
 .blank{
   height: 300px;
@@ -13,6 +16,6 @@ position:relative;
 body {
   background-color: black;
   color: azure;
-  font-family: "Roboto" , "Helvetica Neue", Helvetica, sans-serif; 
+  font-family: "Roboto" , "Helvetica Neue Bold", Helvetica, sans-serif; 
   isolation: isolate;
 }

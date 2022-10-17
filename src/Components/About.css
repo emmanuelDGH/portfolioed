@@ -3,6 +3,7 @@
     margin-top: 70px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     padding: 10px;
     font-size: 4rem;
@@ -29,6 +30,7 @@
     margin:0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 90%;
     min-width: 500px;
     font-size: 2rem;
@@ -45,8 +47,8 @@
     object-position: 0 0;
 }
 .text{
-  text-align: left;
   margin: auto 30px;
+  margin-bottom: 30px;
   position: relative;
   font-size: 1.5rem;
   font-weight: 500;
