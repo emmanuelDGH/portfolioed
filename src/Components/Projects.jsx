@@ -57,9 +57,9 @@ const Projects = () => {
                           transition:{duration:0.5}}}  className="project-container">
                         
                           {i !== projects.length-1?(
-                            <video className="projects-video" src={project.image}  autoplay="true" loop="true" />
+                            <video className="projects-video" src={project.image}  muted defaultmuted playsinline autoplay="true" loop="true" />
                           ):<></>}
-                           {/* <motion.div whileHover={{
+                           <motion.div whileHover={{
                         opacity:0,
                         transition:{duration:0.5}}} 
                         whileTap={{
@@ -67,7 +67,7 @@ const Projects = () => {
                           transition:{duration:0.5}}}className="project_img_overlay">
                           <div className="project_img_title">{project.name}</div>
                           <div className="project_img_description">{project.description}</div>
-                          </motion.div> */}
+                          </motion.div>
                           
                         </motion.div>
 
