@@ -1,0 +1,40 @@
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    white-space: nowrap;
+    z-index: 2;
+    
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: space-between;
+    min-width: 220px;
+}
+.footer-icon{
+    color:azure;
+}
+.footer-icon:hover{
+    color:#fdcf5b;
+}
+.footer-copy-sign{
+    position:absolute;
+    bottom: 120px;
+    background-color: black;
+    color:#fdcf5b;
+    border-radius: 25px;
+    height: fit-content;
+   
+}
+.footer-copy-sign-text{
+    margin:20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: fit-content;
+
+   
+}

@@ -1,0 +1,18 @@
+#root{
+  min-width: 550px;
+  box-sizing: border-box;
+  cursor:default
+}
+.scene{
+position:relative;
+ height:800px;
+}
+.blank{
+  height: 300px;
+}
+body {
+  background-color: black;
+  color: azure;
+  font-family: "Roboto" , "Helvetica Neue", Helvetica, sans-serif; 
+  isolation: isolate;
+}
