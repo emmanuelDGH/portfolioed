@@ -12,24 +12,24 @@
     z-index: 1;
   }
   .projectsButton[data-open="true"] {
-    background-color: #fdcf5b;
+    background-color: #fad883;
     color:black;
   }
   .projectsButton[data-open="false"]:hover{
     color:black;
-    background-color: #fdcf5b;
+    background-color: #fad883;
     }
 .projectsButton[data-open="true"]:hover {
-      background-color: #ffdb80;
+      background-color: #ffde8b;
     }
     
 .inner-carousel{
-  background-color: #fdcf5b;
+  background-color: #fad883;
   display:flex;
 }
 .carousel{
   position: relative;
-  background-color: #fdcf5b;
+  background-color: #fad883;
   cursor:grab;
   overflow: hidden;
 }
@@ -63,7 +63,7 @@
   width: 600px;
   min-height: 600px;
   background-color: black;
-  color:#fdcf5b;
+  color:#fad883;
   opacity:1;
 }
 /* .project_img_overlay:hover{

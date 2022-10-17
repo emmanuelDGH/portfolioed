@@ -14,15 +14,15 @@
     z-index: 1;
   }
   .aboutButton[data-open="true"] {
-    background-color: #fdcf5b;
+    background-color: #fad883;
     color:black;
   }
   .aboutButton[data-open="true"]:hover {
-    background-color: #ffdb80;
+    background-color: #ffde8b;
   }
   .aboutButton[data-open="false"]:hover{
     color:black;
-    background-color: #fdcf5b;
+    background-color: #fad883;
     }
   
 
@@ -48,7 +48,7 @@
 }
 .text{
   margin: auto 30px;
-  margin-bottom: 30px;
+  margin-bottom:30px;
   position: relative;
   font-size: 1.5rem;
   font-weight: 500;

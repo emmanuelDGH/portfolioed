@@ -19,13 +19,13 @@
     color:azure;
 }
 .footer-icon:hover{
-    color:#fdcf5b;
+    color:#fad883;
 }
 .footer-copy-sign{
     position:absolute;
     bottom: 120px;
     background-color: black;
-    color:#fdcf5b;
+    color:#fad883;
     border-radius: 25px;
     height: fit-content;
    
