@@ -40,7 +40,7 @@ return (
             <br/>
             When I am not coding, I like to visit local coffees, exercise, and enjoy nature. I believe being in contact with nature keeps our minds healthy.
             <br/>
-            I like adventures and challenges. That's me and my friend Nico in the picture. we didn't know how to drive a motorbike when we got to Vietnam. 
+            I enjoy adventures and challenges. That's me and my friend Nico in the picture. we didn't know how to drive a motorbike when we got to Vietnam. 
             Yet that didn't stop us from buying one and riding 1500 miles across the country. It was one of the best experiences I had.
             <br/>
             </p>
