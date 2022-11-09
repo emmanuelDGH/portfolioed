@@ -45,7 +45,7 @@ const Cursor = () => {
     <motion.div onMouseEnter={textEnter} 
     onMouseLeave={textLeave}className="cursorText" data-open={cursorVariant} 
     initial={{opacity:0}} animate={{opacity:1}}
-    transition={{duration:1,delay:2}}
+    transition={{duration:1,delay:1}}
     >emmanuel dacal</motion.div>
     <motion.div className='cursor' variants={variants} animate={cursorVariant} transition={{
         type: "spring",

@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <div className="footer">
         <motion.div animate={{ opacity: [0,1,1,1,1], scale: [0.5,1,1,1,1], y:[30,0,0,0,0]}}
-          transition={{delay:3,duration:2}} className= "iconContainer">
+          transition={{delay:2,duration:2}} className= "iconContainer">
            <GitHubIcon className="footer-icon" onClick={()=>openInNewTab("https://github.com/emmanuelDGH")}sx ={{pb:4,pt:3,fontSize:55}}/>
             <LinkedInIcon className="footer-icon" onClick={()=>openInNewTab("https://www.linkedin.com/in/emmanuel-dacal-langhoff/")} sx ={{pb:4,pt:3,fontSize:55}}/>
             <AlternateEmailRoundedIcon className="footer-icon" onClick={emailClick} sx ={{pb:4,pt:3,fontSize:55}}/>
