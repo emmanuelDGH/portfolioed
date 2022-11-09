@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 
 const About = () => {
-    
+
 let [open,setOpen] = useState(false);
 
 return (
@@ -59,5 +59,6 @@ return (
         </motion.div>
 
 )}
+
 
 export default About

@@ -10,12 +10,11 @@ const Projects = () => {
     const [open,setOpen] = useState(false);
     const [width,setWidth] = useState(0);
     const carousel = useRef();
-
-  
-
+    
+    
     useEffect(()=>{ 
-    carousel.current&&setWidth(carousel.current.scrollWidth-carousel.current. offsetWidth+250)
-    },[open])
+    carousel.current&&setWidth(carousel.current.scrollWidth-carousel.current.offsetWidth+250)},[open])
+
 
   return (
     <motion.div >
@@ -57,7 +56,8 @@ const Projects = () => {
                           transition:{duration:0.5}}}  className="project-container">
                         
                           {i !== projects.length-1?(
-                            <video className="projects-video" src={project.image}  muted defaultmuted playsinline autoplay="true" loop="true" />
+                            
+                            <video className="projects-video" type="video/mp4"src={project.image}  muted defaultmuted playsinline autoplay="true" loop="true" />
                           ):<></>}
                            <motion.div whileHover={{
                         opacity:0,
@@ -70,27 +70,16 @@ const Projects = () => {
                           </motion.div>
                           
                         </motion.div>
-
-                       
-
-                        
-                        
-                        
-                        
-                   
-                      
                       </motion.div>
                     ))}
               </motion.div>
           </motion.div>
         )}
       </motion.div>
-
-  
-
-       
-     </motion.div>
+  </motion.div>
   )
+  
+  
 }
 
 export default Projects

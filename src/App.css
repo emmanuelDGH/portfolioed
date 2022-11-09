@@ -1,11 +1,9 @@
 #root{
-  min-width: 550px;
   box-sizing: border-box;
   cursor:default
 }
 .scene{
   margin: 0 auto;
-  max-width: 550px;
   position:relative;
   height:800px;
 
@@ -16,7 +14,7 @@
 body {
   background-color: black;
   color: azure;
-  font-family: "Roboto" , "Helvetica Neue Bold", Helvetica, sans-serif; 
+  font-family: 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   isolation: isolate;
 }
@@ -30,4 +28,10 @@ body {
   bottom: 140px;
   z-index: 2;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .scene {
+     height: 500px;
+      }
 }

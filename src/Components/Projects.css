@@ -15,11 +15,11 @@
     background-color: #fad883;
     color:black;
   }
-  .projectsButton[data-open="false"]:hover{
+  .projectsButton[data-open="false"]:hover, .projectsButton[data-open="false"]:active{
     color:black;
     background-color: #fad883;
     }
-.projectsButton[data-open="true"]:hover {
+.projectsButton[data-open="true"]:hover, .projectsButton[data-open="true"]:active {
       background-color: #ffde8b;
     }
     
@@ -81,6 +81,36 @@
 .project_img_description{
   font-size: 1.5rem;
   margin-bottom: 100px;
+  }
+
+  @media (max-width: 600px) {
+    .projectsButton {
+       font-size: 3rem;
+        }
+        .project{
+          min-width: 300px;
+          max-width: 300px;
+          height: 300px;
+        }
+        .project-container{
+          min-width: 275px;
+          max-width:275px;
+          height: 275px;
+          margin:5px;
+        }
+        .project_img_overlay{
+          width: 300px;
+          min-height: 300px;
+        }
+        .project_img_title{
+          font-size: 1.5rem;
+          font-weight: 900;
+          letter-spacing: 0.01em;
+        }
+        .project_img_description{
+          font-size: 1rem;
+          margin-bottom: 100px;
+          }
   }
 
 

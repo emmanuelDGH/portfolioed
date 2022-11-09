@@ -9,15 +9,14 @@
     pointer-events: none;
     }
 .cursorText{
-    
-     color:  #fad883;
+    color:  #fad883;
     padding:240px 0px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position:absolute;
     z-index: 1;
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: 900;
     letter-spacing: 0.01em;
     white-space: nowrap;
@@ -27,4 +26,10 @@
 .cursorText[data-open="inside"] {
     cursor:none
     }
+
+@media (max-width: 500px) {
+    .cursorText {
+        font-size: 11vw;
+        }
+}
   

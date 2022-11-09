@@ -12,6 +12,7 @@ import "./App.css";
 
 function App() {
   const [loading,setLoading]=useState(false)
+  let screenWidth = window.innerWidth;
   
 
   setTimeout(()=>{setLoading(true)},4000)

@@ -1,6 +1,6 @@
 
   .aboutButton{
-    margin-top: 70px;
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,10 +17,10 @@
     background-color: #fad883;
     color:black;
   }
-  .aboutButton[data-open="true"]:hover {
+  .aboutButton[data-open="true"]:hover, .aboutButton[data-open="true"]:active{
     background-color: #ffde8b;
   }
-  .aboutButton[data-open="false"]:hover{
+  .aboutButton[data-open="false"]:hover, .aboutButton[data-open="false"]:active{
     color:black;
     background-color: #fad883;
     }
@@ -32,7 +32,7 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 90%;
-    min-width: 500px;
+    min-width: 300px;
     font-size: 2rem;
     font-weight: 600;
     letter-spacing: 0.01em;
@@ -41,8 +41,9 @@
 .aboutImg{
     margin:30px;
     border-radius:50%;
-    width: 500px;
-    height: 500px;  
+    min-width: 280px;
+    max-width: 550px;
+    aspect-ratio: 1/1;  
     object-fit: cover;
     object-position: 0 0;
 }
@@ -55,4 +56,15 @@
   letter-spacing: 0.01em;
   width: 500px;
   height: fit-content;
+  }
+
+  @media (max-width: 600px) {
+    .aboutButton {
+      
+       font-size: 3rem;
+        }
+        .text{
+          font-size: 1.2rem;
+          margin: auto 10px
+        }
   }
